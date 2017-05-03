@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Стоматология Универсал</title>
+	<script>
+		if (window.innerWidth<=700) {
+			window.location.pathname = './mobile';
+		}
+	</script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css" />
+	<link rel="stylesheet" type="text/css" href="css/slick.css" />
+</head>
+<body>
+	<div class="container-fluid header-shadow">
+		<div class="container">
+			<div class="row" id="header1">
+				<header>
+					<div class="col-xs-2 logo">
+						<div class="row">
+							<img src="i/logo.png" alt="Стоматология Универсал">
+						</div>
+					</div>
+					<div class="col-xs-4 slogan">
+						Сеть доступных стоматологических<br>клиник в Алматы
+					</div>
+					<div class="col-xs-6">
+						<div class="row">
+							<div class="col-xs-4 col-xs-offset-1 hours">
+								Звоните в любое время 24/7
+							</div>
+							<div class="col-xs-4 phone-numbers">
+								+7 (727) 329-87-87<br>
+								+7 (707) 455-34-55
+							</div>
+							<div class="col-xs-3 call-button-box">
+								<div class="row">
+									<div class="call-button">
+										<img src="i/phone.png"><img src="i/phone-white.png">
+										Заказать<br>звонок
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>		
+			</div>
+		</div>
+	</div>
+		<!-- прилипающий хэдэр -->
+	<div class="container-fluid header2" id="header2">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-1 logo">
+					<div class="row">
+						<img src="i/logo.png" alt="Стоматология Универсал">
+					</div>
+				</div>
+				<div class="col-xs-5 menu">
+					<span data-scrollTo=".screen1-box">Записаться</span>
+					<span data-scrollTo="#screen2">Услуги и цены</span>
+					<span data-scrollTo=".screen4">Врачи</span>
+					<span data-scrollTo=".screen5">Отзывы</span>
+					<span data-scrollTo="#contacts">Контакты</span>
+				</div>
+				<div class="col-xs-6">
+					<div class="row">
+						<div class="col-xs-4 col-xs-offset-1 hours">
+							Звоните в любое время 24/7
+						</div>
+						<div class="col-xs-4 phone-numbers">
+							+7 (727) 329-87-87<br>
+							+7 (707) 455-34-55
+						</div>
+						<div class="col-xs-3 call-button-box">
+							<div class="row">
+								<div class="call-button">
+									<img src="i/phone.png"><img src="i/phone-white.png">
+									Заказать<br>звонок
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid screen1" id="screen1">
+		<div class="screen1-box ">
+			<img src="i/magnifier.png">
+			<div class="register">
+				<div class="register-h1">
+					<span>Запишитесь на обследование</span><br>до 31 февраля
+				</div>
+				<div class="register-h2">
+					получите скидку 20%<br>на любые стоматологические услуги!
+				</div>
+				<form class="register-form" id="form1">
+					<div class="name-box">
+						<label>Как Вас зовут?</label><br>
+						<input name="name" type="text" >
+					</div><div class="address-box">
+						<label>Выберите филиал</label><br>
+						<input name="address" id="addr-input" type="text" value="пр-т. Аль-Фараби 19/110" required>
+						<div class="map-pin" id="map-pin"><img src="i/map-pin.png" class="pin1"><img src="i/map-pin2.png" class="pin2"></div>
+					</div><br><div class="phone-box">
+						<label>Как с Вами связаться?</label><br>
+						<input name="contact" type="text" >
+					</div><div class="personal-box">
+						Ваши данные не будут переда- <br>ваться третьим лицам.
+					</div>
+					<div class="under-button"></div>
+					<button class="register-button">Записаться</button>
+				</form>
+			</div>
+		</div>
+
+	<div class="waves"></div>
+	</div>
+
+	<div class="screen2" id="screen2">
+
+			<div class="tyan-box" id="tyan-box">
+				<div class="container">
+					<div class="col-xs-6">
+						<h2 class="tyan-h2">Наши услуги:</h2>
+					</div>
+				</div>
+				<img src="i/tyanuchka.jpg" id="tyanuchka" class="tyanuchka" />
+			</div>
+
+			<div class="container">
+				<div class="col-xs-offset-6 services-box" id="services">
+					<div class="item-box">
+						<div class="item-round"><img src="i/services/lechenie.jpg">
+							<div class="white-more"><span>Подробнее</span></div>
+						</div>
+						<img src="i/more-magnifier.png" class="more-magnifier">
+						<span>Лечение зубов</span>
+						<p>Стоматологическая клиника «Универсал» рада предложить своим пациентам самый высокий уровень диагностики и лечения. Опытные и квалифицированные врачи, высокотехнологичное оборудование, использование самых передовых методов лечения, удобный режим работы – все это делает нашу клинику одной из самых лучших в Алматы.<br>
+
+Мы осуществляем полный спектр стоматологических услуг, начиная от диагностики и заканчивая сложными хирургическими и терапевтическими операциями.<br>
+
+ЛЕЧЕНИЕ ЗУБОВ В КЛИНИКЕ «Универсал» - ЭФФЕКТИВНО И НАДЕЖНО!<br>
+Для того, что бы получить максимальное количество информации и поставить правильный диагноз, пациенту делают прицельный рентгеновский снимок на переносном рентген-аппарате, т.е. пациенту, сидящему в стоматологическом кресле не приходиться никуда выходить, рентгенологический снимок проводят на месте, что не отнимает время.<br>
+
+Такое детальное исследование позволяет получить наиболее точную картину заболевания, а значит – назначить максимально эффективный курс лечения.<br>
+
+В нашей клинике вы сможете получить квалифицированное лечение таких заболеваний:<br>
+
+Кариеса и осложнений, которые он дает – воспаление пульпы и перидонта.<br>
+Разрушения эмали<br>
+Клиновидных дефектов<br>
+Повреждения видимой части зуба в результате травмы<br>
+Гипоплазии эмали<br>
+На начальном этапе лечения пациент проходит всестороннее обследование, по результатам которого строится индивидуальный план лечения.</p>
+					</div>
+					<div class="item-box">
+						<div class="item-round"><img src="i/services/implant.jpg">
+							<div class="white-more"><span>Подробнее</span></div>
+						</div>
+						<img src="i/more-magnifier.png" class="more-magnifier">
+						<span>Имплантация</span>
+						<p>Имплантация зубов является высокотехнологичным и безопасным методом протезирования, при котором происходит замена отсутствующего зуба (или группы зубов) способом, имитирующим естественное расположение зубов в челюсти. При установке имплантата в костную ткань челюсти вживляется винтообразный стержень из титанового сплава, на который впоследствии прикрепляется верхняя часть, полностью имитирующая зуб. При этом, конструкцию коронковой части и имплантата очень сложно отличить от настоящих зубов, а по прочности и «сроку службы» имплантаты их превосходят. При установке зубного имплантата не повреждаются соседние зубы, а нагрузка распределяется равномерно на весь зубной ряд.<br><br>
+
+                       
+
+Имплантация зубов в клинике «Универсал» - абсолютно безопасная и практически безболезненная процедура. Современное высокотехнологичное оборудование позволяет провести самую точную диагностику и выбрать оптимальный вариант установки имплантатов.<br><br>
+
+Естественно, что имплантация зубов  - процедура достаточно непростая и вызывает у пациентов большое количество вопросов.</p>
+					</div>
+					<div class="item-box">
+						<div class="item-round"><img src="i/services/protezirovanie.jpg">
+							<div class="white-more"><span>Подробнее</span></div>
+						</div>
+						<img src="i/more-magnifier.png" class="more-magnifier">
+						<span>Протезирование</span>
+						<p>Протезирование зубов – одна из самых востребованных стоматологических процедур. К этой услуге обращаются в случае, если собственные зубы пациента были удалены или перестали справляться со своими функциями из-за наличия серьезных дефектов.<br><br>
+
+Металлокерамические коронки – наиболее удачный на сегодняшний день компромисс между прочностью, эстетикой и стоимостью при протезировании зубов.<br><br>
+
+Они  получили свое название из-за того, что имеют внутри литой металлический каркас. Такой каркас имеет толщину 0,3 – 0,5 мм. Как правило, он делается из специально разработанного для стоматологии кобальто-хромового  или никель-хромового сплавов. Однако также возможно применение сплавов из драгоценных металлов, состоящих из золота, платины, палладия и др. в различных пропорциях. <br><br>
+
+Металлический каркас сверху покрывается керамической массой. <br><br>
+
+Облицовка каркаса проходит в виде послойного ручного нанесения слоев керамики. После нанесения каждого слоя происходит обжиг коронки в специальной печи при температуре 800 – 950 градусов. Именно при такой технологии нанесения слоев керамики и температуре обжига  достигается прочная химическая связь керамики и металла.<br><br>
+
+Среди современных съемных протезов стоит упомянуть бюгельный протез, в основе которого лежит металлическая конструкция в форме дуги. Она позволяет использовать, как опору, не только десны, но и здоровые зубы, что делает процесс ношения протеза более комфортным. Такой протез не вызывает нарушения вкусовой чувствительности, и не приводит к возникновению стоматита.
+Бюгельные протезы широко используются в случае утраты нескольких зубов, в том числе передних, дефектов зубного ряда, а также при пародонтите – болезни, которая характеризуется расшатыванием зубов и их «подвижностью». </p>
+					</div>
+					<div class="item-box">
+						<div class="item-round"><img src="i/services/otbel.jpg">
+							<div class="white-more"><span>Подробнее</span></div>
+						</div>
+						<img src="i/more-magnifier.png" class="more-magnifier">
+						<span>Отбеливание зубов</span>
+						<p>Зубная боль и кариес не начинаются по расписанию, и, порой, это случается в довольно позднее время. Естественно, ребенок не может терпеть длительный дискомфорт. Решением этой проблемы станет детская стоматология Алматы «Универсал», которая работает круглосуточно. Высококлассные врачи-стоматологи окажут квалифицированную помощь, успокоят малыша и найдут к нему правильный подход.<br><br>
+ 
+
+Кариес временных, так называемых «молочных» зубов надо лечить в том числе и потому, что их состояние в значительной мере гарантирует здоровье всего организма в целом. В зависимости от стадии развития кариеса или возможностей его развития (с учетом возраста ребёнка) выбирают соответствующую методику лечения по принципу: максимальный эффект при минимальном вмешательстве.<br><br>
+
+Сепарация контактной поверхности молочного зуба<br><br>
+Лечение поверхностных кариозных полостей фронтальных временных зубов очень часто производится путем сепарации (сошлифовывания) пораженных поверхностей зубов с последующим покрытием их реминерализирующими препаратами, например фторлаком.</p>
+					</div>
+					<div class="item-box">
+						<div class="item-round"><img src="i/services/5.jpg">
+							<div class="white-more"><span>Подробнее</span></div>
+						</div>
+						<img src="i/more-magnifier.png" class="more-magnifier">
+						<span>Эстетическая стоматология</span>
+						<p>Зубная боль и кариес не начинаются по расписанию, и, порой, это случается в довольно позднее время. Естественно, ребенок не может терпеть длительный дискомфорт. Решением этой проблемы станет детская стоматология Алматы «Универсал», которая работает круглосуточно. Высококлассные врачи-стоматологи окажут квалифицированную помощь, успокоят малыша и найдут к нему правильный подход.<br><br>
+ 
+
+Кариес временных, так называемых «молочных» зубов надо лечить в том числе и потому, что их состояние в значительной мере гарантирует здоровье всего организма в целом. В зависимости от стадии развития кариеса или возможностей его развития (с учетом возраста ребёнка) выбирают соответствующую методику лечения по принципу: максимальный эффект при минимальном вмешательстве.<br><br>
+
+Сепарация контактной поверхности молочного зуба<br><br>
+Лечение поверхностных кариозных полостей фронтальных временных зубов очень часто производится путем сепарации (сошлифовывания) пораженных поверхностей зубов с последующим покрытием их реминерализирующими препаратами, например фторлаком.</p>
+					</div>
+					<div class="item-box">
+						<div class="item-round"><img src="i/services/6.jpg">
+							<div class="white-more"><span>Подробнее</span></div>
+						</div>
+						<img src="i/more-magnifier.png" class="more-magnifier">
+						<span>3D - Голливудская улыбка</span>
+						<p>От красивой и здоровой улыбки зависит очень многое. Чтобы она была открытой и естественной, необходимо решить все проблемы с кривизной зубов или неправильным прикусом. Обратившись в клинику «Универсал», вы сможете получить высококлассное ортодонтическое лечение. Единственное, что необходимо сделать – записаться на прием к нашим специалистам. Они подберут оптимальный для вас вариант решения проблемы: брекеты (металлические, керамические или сапфировые), элайнеры, определят сумму и план лечения.<br>
+
+Виды брекетов<br><br>
+
+Ровные, красивые и здоровые зубы – главный критерий привлекательности современного человека, который следит за своим здоровьем, внешностью. Однако большинство людей считает, что исправить неправильный прикус можно только в детском возрасте. В реальности благодаря использованию современных брекетов любой взрослый человек может пройти успешное ортодонтическое лечение, которое сделает его улыбку красивой, а зубы ровными и здоровыми. Где лучше купить и поставить брекеты?<br><br>
+
+Ортодонтия нашей стоматологической клиники предлагает самые различные виды брекет систем, которые подходят для детей и взрослых – прозрачные, сапфировые, металлические, золотые, цветные, керамические как с лигатурами, так и самолигирующие.Сколько стоит поставить брекет систему? Стоят ортодонтические конструкции в нашей клинике невероятно доступно для всех, а их цена складывается из типа конструкции и материала, из которого она изготовлена. При этом мы предлагаем новейшие, самые незаметные и эффективные, в том числе эстетические брекеты, которые исправят ваш прикус и гарантируют отсутствие любого психологического дискомфорта, связанного с ношением.                         </p>
+					</div>
+					<div class="item-box">
+						<div class="item-round"><img src="i/services/7.jpg">
+							<div class="white-more"><span>Подробнее</span></div>
+						</div>
+						<img src="i/more-magnifier.png" class="more-magnifier">
+						<span>Брекеты</span>
+						<p>Виды брекетов<br><br>
+
+Ровные, красивые и здоровые зубы – главный критерий привлекательности современного человека, который следит за своим здоровьем, внешностью. Однако большинство людей считает, что исправить неправильный прикус можно только в детском возрасте. В реальности благодаря использованию современных брекетов любой взрослый человек может пройти успешное ортодонтическое лечение, которое сделает его улыбку красивой, а зубы ровными и здоровыми. Где лучше купить и поставить брекеты?<br><br>
+
+Ортодонтия нашей стоматологической клиники предлагает самые различные виды брекет систем, которые подходят для детей и взрослых – прозрачные, сапфировые, металлические, золотые, цветные, керамические как с лигатурами, так и самолигирующие.Сколько стоит поставить брекет систему? Стоят ортодонтические конструкции в нашей клинике невероятно доступно для всех, а их цена складывается из типа конструкции и материала, из которого она изготовлена. При этом мы предлагаем новейшие, самые незаметные и эффективные, в том числе эстетические брекеты, которые исправят ваш прикус и гарантируют отсутствие любого психологического дискомфорта, связанного с ношением. </p>
+					</div>
+					<div class="item-box">
+						<div class="item-round"><img src="i/services/8.jpg">
+							<div class="white-more"><span>Подробнее</span></div>
+						</div>
+						<img src="i/more-magnifier.png" class="more-magnifier">
+						<span>Детская стоматология</span>
+						<p>Зубная боль и кариес не начинаются по расписанию, и, порой, это случается в довольно позднее время. Естественно, ребенок не может терпеть длительный дискомфорт. Решением этой проблемы станет детская стоматология Алматы «Универсал», которая работает круглосуточно. Высококлассные врачи-стоматологи окажут квалифицированную помощь, успокоят малыша и найдут к нему правильный подход.<br><br>
+ 
+
+Кариес временных, так называемых «молочных» зубов надо лечить в том числе и потому, что их состояние в значительной мере гарантирует здоровье всего организма в целом. В зависимости от стадии развития кариеса или возможностей его развития (с учетом возраста ребёнка) выбирают соответствующую методику лечения по принципу: максимальный эффект при минимальном вмешательстве.<br><br>
+
+Сепарация контактной поверхности молочного зуба<br><br>
+Лечение поверхностных кариозных полостей фронтальных временных зубов очень часто производится путем сепарации (сошлифовывания) пораженных поверхностей зубов с последующим покрытием их реминерализирующими препаратами, например фторлаком.</p>
+					</div>
+					<div class="item-box">
+						<div class="item-round"><img src="i/services/9.jpg">
+							<div class="white-more"><span>Подробнее</span></div>
+						</div>
+						<img src="i/more-magnifier.png" class="more-magnifier">
+						<span>Лечение дёсен</span>
+						<p>Воспаление дёсен: гингивит, пародонтит. Симптомы и лечение.<br>
+
+Воспаление дёсен является достаточно распространённым заболеванием полости рта, которым в той или иной степени страдают около 2/3 всех пациентов. Симптомами воспалительного процесса служат покраснение и отёк дёсен, неприятный запах изо рта, иногда зуд или болезненные ощущения (десна чешется и болит), а самым наглядным показателем, пожалуй, является кровоточивость дёсен. Часто это проявляется при чистке зубов или при кусании твёрдой пищи, например, яблока, на котором после укуса остаются следы крови. Иногда в стоматологическую клинику приходят пациенты, которые жалуются на зубную боль, а при осмотре и диагностике выясняется, что причиной беспокойства является не зуб, а боль в десне. К сожалению, из-за недостатка информации по поводу именно проблем с дёснами к стоматологу обращаются немногие (особенно при слабо выраженных симптомах). А зря, ведь если заболевание не лечить, то оно будет прогрессировать, что может привести к более серьёзным последствиям, чем зуд, покраснение и кровоточивость дёсен. Об этом мы расскажем чуть ниже.<br>
+
+Ткани, окружающие зуб и удерживающие его в челюсти, называются пародонт. А врач-стоматолог, который специализируется на лечении дёсен и более глубоких тканей, окружающих зуб, называется пародонтолог.</p>
+					</div>
+					<div class="item-box">
+						<div class="item-round"><img src="i/services/10.jpg">
+							<div class="white-more"><span>Подробнее</span></div>
+						</div>
+						<img src="i/more-magnifier.png" class="more-magnifier">
+						<span>Удаление зубов</span>
+						<p>В нашей клинике проводится удаление зубов максимально щадящими методами, с обязательным применением анестезии в случаях малейшего хирургического вмешательства. Мы стремимся к тому, что бы пациент во время операции не испытывал никакого дискомфорта – ни физического, ни психологического. Любая операция проводится с максимальной точностью, что бы исключить повреждение окружающих тканей. Это позволяет избежать осложнений в период реабилитации, уменьшить размер костного дефекта и ускорить выздоровление пациентов. Малая площадь повреждения костной ткани на месте удаленного зуба очень важна при последующей имплантации зуба.<br><br>
+
+Удалить поврежденный зуб мы рекомендуем только в том случае, если его восстановление невозможно, а лечение не принесет желаемого результата. Высокий уровень квалификации наших врачей позволяет вылечить достаточно сложные случаи, но если уж дело дошло до удаления, то можете смело соглашаться на эту операцию – вам будут предложены самые эффективные варианты анестезии и минимальное оперативное вмешательство. Это позволит перенести удаление зуба с максимально возможным комфортом и ускорит процесс заживления раны. Только после полного восстановления тканей становится возможным следующий этап – протезирование.<br><br>
+
+По всем интересующим вопросам звоните нам по телефонам +77074553455; +7(727)3298787; +7(727)2929777, записывайтесь с помощью формы для онлайн-записи на странице этого сайта или через инстаграм. Помните, чем раньше Вы обратитесь к стоматологу, тем быстрее, легче и дешевле будет лечение.</p>
+					</div>
+					<div class="item-box">
+						<div class="item-round"><img src="i/services/11.jpg">
+							<div class="white-more"><span>Подробнее</span></div>
+						</div>
+						<img src="i/more-magnifier.png" class="more-magnifier">
+						<span>Профессиональная чистка</span>
+						<p>Чистка любых зубов ультразвуковым аппаратом процесс сложный. Давайте разберемся, что же к нему ведет. Зубной камень – явление, которое встречается практически у каждого пациента. Его основные признаки – кровоточивость, воспаление десенных тканей, неприятный запах, кариозные процессы.<br><br>
+
+Предотвратить их образование может только постоянная гигиена рта. В данном плане ультразвуковая процедура является незаменимой.<br><br>
+
+Только ультразвуковое снятие зубных отложений возможно на всех поверхностях, включая те, которые остаются недоступными для стандартных щеток – межзубные пространства, участки, спрятанные под деснами.<br><br>
+
+Проводится чистка ультразвуком зубов с использованием ультразвукового скайлера, работа которого основана на эффекте кавитации. Наконечник прибора, публикующий с частотой до 30 тыс. колебаний в секунду, увлажняется водой, которая в результате воздействия ультразвука вспенивается и доходит до самых отдаленных и труднодоступных участков зубной дуги и снимает отложившийся камень.<br><br>
+
+ 
+
+После ультразвука зубные эмаль подвергается обработке по технологии airflow, что позволяет ее отшлифовать, отполировать и придать белизну.<br><br>
+
+Чтобы поддерживать результат, air flow чистка зубов должна проводиться не реже двух раз ежегодно. Процедура выполняется не больно, не требует обезболивания. После нее зубы приобретают естественную белизну, и полностью очищаются от отложений.</p>
+					</div>
+					<div class="item-box">
+						<div class="item-round"><img src="i/services/12.jpg">
+							<div class="white-more"><span>Подробнее</span></div>
+						</div>
+						<img src="i/more-magnifier.png" class="more-magnifier">
+						<span>Рентген</span>
+					</div>
+				</div>
+			</div>
+
+		<div class="waves" id="waves-free"></div>
+	</div>
+
+	<section class="akcii container" id="akcii">
+
+	<div class="container">
+		<div id="akcii-slider" class="s3-slider">
+			<div class="item"><img src="i/slide1.jpg" /></div>
+			<div class="item"><img src="i/slide1.jpg" /></div>
+
+		</div>
+	</div>
+	</section>
+
+	<div class="mint-box container-fluid">
+		<div class="waves waves-top" id="waves-free"></div>
+		<div class="col-xs-12">
+			<h4 class="akcii-h3">Узнать подробности и записаться на приём вы можете прямо сейчас по тел.:</h4>
+		</div>
+		<div class="col-xs-12">
+			<div class="akcii-phone">
+				<a class="button-x" href="tel:+77273298787">+7 (727) 329-87-87</a><a class="button-x" href="tel:+77074553455">+7 (707) 455-34-55</a>
+			</div>
+		</div>
+		<div class="waves" id="waves-free"></div>
+	</div>
+
+	<div class="container screen3" id="screen3">
+		<div class="col-xs-6">
+			<div id="s3-bullet1">
+				<img src="i/teeth-destroyer.jpg" class="teeth-destroyer">
+				<h2 class="h2-left">Гарантируем<br>эффективное<br>лечение</h2>
+				<p>Оборудование для стоматологии представлено стоматологическими установками Mercury , Victor , Woson, компрессорами Ekom и ND , а также лечебным и диагностическим оборудованием от Woodpecker (Китай), Геософт (Россия), </p>
+			</div>
+		</div>
+		<div class="col-xs-6">
+			<div id="s3-bullet2">
+				<h2 class="h2-left">Работаем на новом оборудовании</h2>
+				<p>Оборудование для стоматологии представлено стоматологическими установками Mercury , Victor , Woson, компрессорами Ekom и ND , а также лечебным и диагностическим оборудованием</p>
+				<form class="register-form dentist-form" id="form2">
+					<img src="i/dentist-form.png" class="dentist-form-img">
+					<div class="form-head">Бесплатная консультация<br>и обследование </div>
+					<div class="name-box">
+						<input name="name" placeholder="Как Вас зовут?" type="text" >
+					</div><div class="phone-box">
+						<input name="phone" placeholder="Телефон" type="text" >
+					</div>
+					<div class="under-button"></div>
+					<button class="register-button">Записаться</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid screen4">
+		<div class="waves-up"></div>
+			<div class="container ">
+				<h2>Наши доктора:</h2>
+				<div class="col-xs-8 col-xs-offset-2 doctors">
+					<div class="item-box">
+						<div class="item-round"><img src="i/doctors/guljan.jpg">
+							<div class="white-more"><span>Подробнее</span></div>
+						</div>
+						<img src="i/more-magnifier.png" class="more-magnifier">
+						<span><b>Гульжан Утеулива</b><br>
+						<div>Главный врач и руководитель<br>
+						Опыт работы - 14 лет</div></span>
+					</div>
+
+					<div class="item-box">
+						<div class="item-round"><img src="i/doctors/doc1.jpg">
+							<div class="white-more"><span>Подробнее</span></div>
+						</div>
+						<img src="i/more-magnifier.png" class="more-magnifier">
+						<span><b>Нуржан Набиев</b><br>
+						<div>Врач-стоматолог высшей категории<br>
+						Опыт работы - 21 год</div></span>
+					</div>
+
+					<div class="item-box">
+						<div class="item-round"><img src="i/doctors/janibeck.jpg">
+							<div class="white-more"><span>Подробнее</span></div>
+						</div>
+						<img src="i/more-magnifier.png" class="more-magnifier">
+						<span><b>Жанибек Аленов</b><br>
+						<div>Стоматолог-терапевт<br>
+						Опыт работы - 7 лет</div></span>
+					</div>
+
+					<br>
+
+					<div class="item-box">
+						<div class="item-round"><img src="i/doctors/asel.jpg">
+							<div class="white-more"><span>Подробнее</span></div>
+						</div>
+						<img src="i/more-magnifier.png" class="more-magnifier">
+						<span><b>Асель Байбулатова</b><br>
+						<div>Врач-ортодонт<br>
+						Опыт работы - 7 лет</div></span>
+					</div>
+
+					<div class="item-box">
+						<div class="item-round"><img src="i/doctors/doc1.jpg">
+							<div class="white-more"><span>Подробнее</span></div>
+						</div>
+						<img src="i/more-magnifier.png" class="more-magnifier">
+						<span><b>Азамат</b><br>
+						<div>Врач-стоматолог<br>
+						Опыт работы - 4 года</div></span>
+					</div>
+				</div>
+			</div>
+		<div class="waves"></div>
+	</div>
+
+	<div class="container screen5">
+		<h2>Отзывы клиентов:</h2>
+			<div class="row feedback">
+				<div class="col-xs-6 video">
+				<iframe width="100%" height="300" src="https://www.youtube.com/embed/COtpSGms3s" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="col-xs-6">
+					<div class="feedback-text">
+						<img src="i/quote-feedback.png" class="quote-feedback">
+						Сильно болел зуб под пломбой. По рекомендации знакомых обратился в «Универсал» к Гульжан Калиевне. <br>
+						После обследования оказалось, что год назад в другой стоматологии мне поставили пломбу неправильно. <br>
+						Гульжан быстро почистила зуб и поставила новую световую пломбу. Оказалось на 3000 тенге дешевле, чем мне это делали раньше.
+					</div>
+				</div>
+			</div>
+			<div class="row feedback">
+				<div class="col-xs-6 video">
+				<iframe width="100%" height="300" src="https://www.youtube.com/embed/COtpSGms3s" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="col-xs-6">
+					<div class="feedback-text">
+						<img src="i/quote-feedback.png" class="quote-feedback">
+						Мёртвый зуб несколько месяцев не давал покоя. Но стоматологов боялась с детства и всё никак не решалась пойти на приём.<br>
+						По рекомендации обратилась к Нуржану Набиеву из Универсала. Друг у него лечился и посоветовал.<br>
+						Лечением очень довольна!<br>
+						Заморозили нерв, без боли удалили зуб и поставили имплант. Думала будет очень больно, но практически ничего не почувствовала. Спасибо!
+					</div>
+				</div>
+			</div>
+	</div>
+
+	<div class="container screen6">
+		<form class="register-form dentist-form without" id="form3">
+			<div class="form-head">Бесплатная консультация<br>и обследование </div>
+			<div class="name-box">
+				<input name="name" placeholder="Как Вас зовут?" type="text" >
+			</div><div class="phone-box">
+				<input name="phone" placeholder="Телефон" type="text" >
+			</div>
+			<div class="under-button"></div>
+			<button class="register-button">Записаться</button>
+		</form>
+	</div>
+
+	<div class="container screen7">
+		<h2>Как проходит процесс лечения зубов:</h2>
+
+		<div id="s7-bullet1">	
+			<div class="row how-line">
+				<div class="col-xs-3 how-rounder">
+					<div class="rounder">
+					 	<img src="i/how1.jpg">
+					</div>
+					<div class="how-digit">1</div>
+				</div>
+				<div class="col-xs-9 how-text">
+				<div class="how-text">
+					<h4>Бесплатное обследование и определение проблемы</h4>
+					<p>Врач проводит полное обследование полости рта и выявляет причину боли. Если необходимо - делаем рентген-снимок.<br>
+					Рассказываем как избавиться от проблемы. Какое лечение необходимо и сколько это будет стоить.</p>
+				</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="s7-bullet2">
+			<div class="row how-line">
+				<div class="col-xs-3 how-rounder">
+					<div class="rounder">
+					 	<img src="i/how2.jpg">
+					</div>
+					<div class="how-digit">2</div>
+				</div>
+				<div class="col-xs-9 how-text">
+				<div class="how-text">
+					<h4>Лечение</h4>
+					<p>Основная задача - быстро и без боли исправить проблему.<br>
+					Работаем аккуратно, с заботой о клиенте. Чтобы не было больно - используем<br>
+					анестезию. Если наши пациенты дети - предлагаем игрушки и стараемся отвлечь их во время процедуры.</p>
+				</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="s7-bullet3">
+			<div class="row how-line">
+				<div class="col-xs-3 how-rounder">
+					<div class="rounder">
+					 	<img src="i/how3.jpg">
+					</div>
+					<div class="how-digit">3</div>
+				</div>
+				<div class="col-xs-9 how-text">
+				<div class="how-text">
+					<h4>Гарантийное обслуживание</h4>
+					<p>На наши пломбы мы даём гарантию от 5 лет. Если по какой-то причине она <br>
+					вылетит, заменим бесплатно!<br>
+					На импланты и протезы гарантия 5 лет и т.д.</p>
+				</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="container screen8">
+		<h2>Стоматология в Алматы «Universal»</h2>
+		<div class="col-xs-7">
+			<div id="slider-about">
+				<img src="i/about/3.jpg">
+				<img src="i/about/1.jpg">
+				<img src="i/about/2.jpg">
+			</div>
+			<hr>
+		</div>
+		<div class="col-xs-5">
+			<p>
+				Уже 10 лет помогаем людям избавиться от боли в зубах и приобрести ослепительную улыбку. За это время сформировалась сильная команда врачей-стоматологов.<br><br>
+				Следим за тенденциями медицинского рынка и всем составом проходим курсы повышения квалификации. Оказываем любые стоматологические услуги, вне зависимости от сложности.<br><br>
+				Мы единственная стоматология в Алматы, которая предлагает гарантию от 5-ти лет на лечение и протезирование зубов. А на импланты - пожизненную гарантию.<br><br>
+				В Алматы у нас две стоматологические клиники. Записаться на бесплатное обследование зубов вы можете по телефонам, либо на этом сайте.
+			</p>
+		</div>
+	</div>
+
+
+	<div class="container screen9">
+		<form class="register-form dentist-form without" id="form4">
+			<div class="form-head">Бесплатная консультация<br>и обследование </div>
+			<div class="name-box">
+				<input name="name" placeholder="Как Вас зовут?" type="text" >
+			</div><div class="phone-box">
+				<input name="phone" placeholder="Телефон" type="text" >
+			</div>
+			<div class="under-button"></div>
+			<button class="register-button">Записаться</button>
+		</form>
+	</div>
+
+	<div class="container screen10" id="contacts">
+		<div class="row">
+			<div class="addresses">
+				<div id="addr1" class="address-first green">
+					<h4>Стоматология Universal Аль-Фараби</h4>
+					<p>Адрес: г.Алматы, пр.Аль-Фараби д.19/110,<br> уг.ул.Шашкина</p>
+					<p>Телефоны:<br>
+					+7 (727) 329-87-87<br>
+					+7 (707) 455-34-55<br>
+					Режим работы: с 10:00 до 18:00</p>
+				
+				</div><div id="addr2" class="address-second cursor-pointer">
+					<h4>Стоматология Universal на Кабдолова</h4>
+					<p>Адрес: г.Алматы, Кабдолова 2 (Маречка),<br> уг.ул.Отеген батыра</p>
+					<p>Телефоны:<br>
+					+7 (727) 395-98-32<br>
+					+7 (727) 226-59-00<br>
+					Режим работы: с 10:00 до 18:00</p>
+				</div>
+			</div>
+			<div id="map1"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa45c10cb483becf440f0985e2c09ed621f2112c9c25ee9c162d871f0b636c2fa&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+			</div>
+			<div id="map2"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A34dfb05e488d580b33f4ee9e519be56e44e526c72a1e7f3dab00d44da846a54d&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+			</div>
+
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="col-xs-3">
+				<a href="http://d-advance.pro">
+					<img src="i/d-advance.svg" class="d-advance">
+				</a>
+			</div>
+			<div class="col-xs-3">
+				<img src="i/logo-footer.png" class="logo-footer">
+			</div>
+			<div class="col-xs-3">
+				<a href="https://www.instagram.com/universalclinic/" class="inst">
+					<img src="i/Instagram.png" class="soc-ico instagram">
+					<img src="i/Instagram2.png" class="soc-ico instagram2">
+				</a>
+			</div>
+			<div class="col-xs-3">
+				<p class="copyright">ТОО «УНИВЕРСАЛ<br>
+				Стоматологическая клиника»<br>
+				© 2017. All rights reserved<br>
+				universalstom@gmail.com
+				</p>
+			</div>
+		</div>
+	</footer>
+
+	<div class="screen10" id="modal-contacts">
+		<h3>Лечение зубов</h3>
+		<div class="addresses">
+			<div id="addr1" class="address-first green" data-addr="пр. Аль-Фараби д.19/110">
+				<h4>Стоматология Universal Аль-Фараби д.19/110</h4>
+				<p>
+				+7 (727) 329-87-87<br>
+				+7 (707) 455-34-55<br>
+				</p>
+			
+			</div><div id="addr2" class="address-second cursor-pointer" data-addr="ул. Кабдолова, 2 (Маречка)">
+				<h4>Стоматология Universal на Кабдолова 2</h4>
+				<p>
+				+7 (727) 395-98-32<br>
+				+7 (727) 226-59-00<br>
+				</p>
+			</div>
+		</div>
+		<div id="map1"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa45c10cb483becf440f0985e2c09ed621f2112c9c25ee9c162d871f0b636c2fa&amp;width=100%25&amp;height=257&amp;lang=ru_RU&amp;scroll=true"></script>
+		</div>
+		<div id="map2"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A34dfb05e488d580b33f4ee9e519be56e44e526c72a1e7f3dab00d44da846a54d&amp;width=100%25&amp;height=257&amp;lang=ru_RU&amp;scroll=true"></script>
+		</div>
+		<div id="#choose" class="b-close choose">ok</div>
+		<div class="modal-close b-close">&times;</div>
+	</div>
+
+	<div class="modal-services" id="modal-services">
+		<h3>Лечение зубов</h3>
+		<div class="col-xs-6 modal-services-img">
+			<img src="i/photo-front.jpg">
+		</div>
+		<div class="col-xs-6 modal-services-text">
+			<div class="serv-scroll">
+				<p></p>
+			</div>
+		</div>
+
+
+				<form class="register-form inside-modal" id="form3">
+					<div class="form-head">Записаться на приём:</div>
+					<div class="name-box">
+						<input name="name" placeholder="Как Вас зовут?" type="text" >
+					</div><div class="phone-box">
+						<input name="phone" placeholder="Телефон" type="text" > <button class="register-button2">Записаться</button>
+					</div>
+				</form>
+
+		<div class="modal-close">&times;</div>
+	</div>
+
+	<div class="callback-modal" id="callback-modal">
+		<form class="register-form dentist-form without" id="form3">
+			<div class="form-head">Заказать звонок</div>
+			<div class="name-box">
+				<input name="name" placeholder="Как Вас зовут?" type="text" >
+			</div><br>
+			<div class="phone-box">
+				<input name="phone" placeholder="Телефон" type="text" >
+			</div>
+			<div class="under-button"></div>
+			<button class="register-button">Записаться</button>
+		</form>
+		<div class="modal-close">&times;</div>
+	</div>
+
+
+	<div class="thankyou-modal">
+		<h2>Спасибо.</h2>
+		<p>Скоро с Вами свяжется наш менеджер</p> 
+		<div class="modal-close">&times;</div>
+	</div>
+
+	<div id="img-modal">
+		<img src="">
+		<div class="modal-close">&times;</div>
+	</div>
+
+
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/popup.js"></script>
+<script src="js/jquery.viewportchecker.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
+
+
