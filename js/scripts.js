@@ -149,12 +149,30 @@ $(document).ready(function() {
 	
 	$('#s3-bullet1').addClass("hidden-b").viewportChecker({
 		classToAdd: 'visible-b anim fadeInLeft animated',
-		offset: 200,
+		offset: -200,
 	});
 
 	$('#s3-bullet2').addClass("hidden-b").viewportChecker({
 		classToAdd: 'visible-b anim fadeInRight animated',
-		offset: 400,
+		offset: -200,
+	});
+
+	$('#s3-bullet3').addClass("hidden-b").viewportChecker({
+		classToAdd: 'visible-b anim fadeInLeft animated',
+		offset: 0,
+	});
+
+	$('#s3-bullet4').addClass("hidden-b").viewportChecker({
+		classToAdd: 'visible-b anim fadeInRight animated',
+		offset: 0,
+	});
+	$('#s3-bullet5').addClass("hidden-b").viewportChecker({
+		classToAdd: 'visible-b anim fadeInRight animated',
+		offset: 0,
+	});
+	$('#s3-bullet6').addClass("hidden-b").viewportChecker({
+		classToAdd: 'visible-b anim fadeInLeft animated',
+		offset: 0,
 	});
 
 	$('#s7-bullet1, #s7-bullet2, #s7-bullet3').addClass("hidden-b").viewportChecker({

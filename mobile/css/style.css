@@ -411,10 +411,15 @@ h2 {
 
 .dentist-form-img {
     position: absolute;
-    top: -279px;
+    top: -195px;
     z-index: -1;
     left: 50%;
-    margin-left: -158px;
+    margin-left: -174px;
+    width: 116%;
+}
+
+.s3-bullet3 img {
+	width: 92%;
 }
 
 .form-head {

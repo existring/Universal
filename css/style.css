@@ -712,14 +712,16 @@ background-image: url(../i/brarr.png);
 
 .screen3 p {
 	font-size: 18px;
+	line-height: 23px;
 }
+
 
 .teeth-destroyer {
 	margin-top: 40px;
 }
 
 .dentist-form {
-	margin-top: 250px;
+	margin-top: 264px;
 	height: auto;
 	padding-left: 25px;
 	padding-top: 5px;
@@ -728,11 +730,11 @@ background-image: url(../i/brarr.png);
 
 .dentist-form-img {
 	position: absolute;
-    top: -279px;
+    top: -226px;
     z-index: -1;
     left: 50%;
-    margin-left: -149px;
-    width: 60%;
+    margin-left: -214px;
+    width: 73%;
 }
 
 .form-head {
@@ -741,6 +743,34 @@ background-image: url(../i/brarr.png);
 	text-align: center;
 	margin-bottom: 10px;
 }
+
+.s3-bullet3 {
+	display: block;
+	margin: 40px auto 0;
+	text-align: center;
+}
+
+.s3-bullet3 img {
+	
+}
+
+.s3-bullet4 {
+	
+	
+}
+
+.s3-bullet1 {
+	margin-top: 106px;	
+}
+
+.s3-bullet6 {
+	margin-top: 68px;
+}
+
+.s3-bullet5 {
+	
+}
+
 
 
 /* screen4 */
